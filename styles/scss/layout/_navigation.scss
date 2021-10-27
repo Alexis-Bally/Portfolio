@@ -10,6 +10,7 @@ nav {
     background-color: $nav-footer-background-color;
     h2 {
         width: auto;
+        font-size: 2em;
     }
     ul {
         display: flex;
@@ -24,6 +25,13 @@ nav {
                 font-size: 1.7em;
                 color: $text-color;
             }
+            .nav-link-underline{
+                text-decoration: underline;
+            }
         }
     }
+}
+
+.container {
+    padding-top: 8vh;
 }

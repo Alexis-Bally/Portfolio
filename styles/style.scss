@@ -1,4 +1,10 @@
 @import 'scss/abstract/variables';
-@import 'scss/components/index';
-@import 'scss/components/skill';
-@import 'scss/components/project';
+@import 'scss/layout/footer';
+@import 'scss/layout/grid';
+@import 'scss/layout/header';
+@import 'scss/layout/navigation';
+@import 'scss/components/buttons.scss';
+@import 'scss/pages/index';
+@import 'scss/pages/skill';
+@import 'scss/pages/project';
+@import 'scss/themes/theme';

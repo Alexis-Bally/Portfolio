@@ -109,6 +109,9 @@ nav ul li .nav-link-underline {
   box-shadow: 0 5px 10px #8700E8;
   font-size: 1.2em;
 }
+.first-section .content .infos p {
+  text-align: justify;
+}
 .first-section .content .infos :nth-child(2) {
   margin-top: 1vh;
 }
@@ -145,9 +148,68 @@ nav ul li .nav-link-underline {
   padding: 0 5vw;
 }
 
-.first-section {
-  width: 100%;
+.gris {
   background-color: #262626;
+}
+
+.projet {
+  width: 100%;
+  height: 80vh;
+  padding: 50px 13%;
+}
+.projet h3 {
+  font-size: 2em;
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+.projet .description {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.projet .description .portrait {
+  width: 35%;
+}
+.projet .description .paysage {
+  width: 45%;
+}
+.projet .description .text {
+  width: 55%;
+  padding: 5vh 2vw;
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+.projet .description .text p {
+  text-align: justify;
+}
+.projet .description .text :nth-child(2) {
+  margin-top: 1vh;
+}
+.projet .description .text-paysage {
+  width: 45%;
+}
+.projet .button {
+  display: flex;
+  justify-content: end;
+}
+.projet .button button {
+  width: 8vw;
+  height: 4vh;
+  background-color: #B54CFF;
+  border: 5px solid #8700E8;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.projet-paysage {
+  height: 70vh;
+}
+.projet-paysage .description-paysage {
+  height: 45vh;
 }
 
 * {

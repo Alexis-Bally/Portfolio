@@ -25,6 +25,9 @@
             border-radius: 20px;
             box-shadow: 0 5px 10px $purple-1;
             font-size: 1.2em;
+            p {
+                text-align: justify;
+            }
             & :nth-child(2) {
                 margin-top: 1vh;
             }

@@ -45,16 +45,6 @@
     .button {
         display: flex;
         justify-content: end;
-        button {
-            width: 8vw;
-            height: 4vh;
-            background-color: $purple-2;
-            border: 5px solid $purple-1;
-            border-radius: 10px;
-            color: $text-color;
-            font-size: 1em;
-            cursor: pointer;
-        }
     }
 }
 

@@ -80,6 +80,17 @@ nav ul li .nav-link-underline {
   padding-top: 8vh;
 }
 
+.project .button button {
+  width: 8vw;
+  height: 4vh;
+  background-color: #B54CFF;
+  border: 5px solid #8700E8;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
 .first-section {
   width: 100%;
   height: 85vh;
@@ -196,16 +207,6 @@ nav ul li .nav-link-underline {
 .projet .button {
   display: flex;
   justify-content: end;
-}
-.projet .button button {
-  width: 8vw;
-  height: 4vh;
-  background-color: #B54CFF;
-  border: 5px solid #8700E8;
-  border-radius: 10px;
-  color: #ffffff;
-  font-size: 1em;
-  cursor: pointer;
 }
 
 .projet-paysage {

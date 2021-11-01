@@ -3,6 +3,20 @@
     height: 70vh;
     padding: 0 13%;
     background-color: $secondary-background-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .skill-line {
+        height: 40%;
+        width: 100%;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            height: 50%;
+        }
+    }
 }
 
 .skills-texts {

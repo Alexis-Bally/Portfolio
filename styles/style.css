@@ -149,6 +149,20 @@ nav ul li .nav-link-underline {
   height: 70vh;
   padding: 0 13%;
   background-color: #262626;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.skills-icons .skill-line {
+  height: 40%;
+  width: 100%;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.skills-icons .skill-line img {
+  height: 50%;
 }
 
 .skills-texts {

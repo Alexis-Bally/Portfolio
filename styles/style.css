@@ -126,6 +126,9 @@ nav ul li .nav-link-underline {
 .first-section .content .illustration {
   width: 30%;
 }
+.first-section .content .illustration img {
+  width: 100%;
+}
 .first-section .content .infos {
   width: 45%;
   background-color: #8700E8;

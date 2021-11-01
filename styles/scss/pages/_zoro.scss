@@ -18,20 +18,6 @@
         text-align: justify;
         margin: 10vh 0;
     }
-    .nav-zoro {
-        p {
-            margin: 7vh 0;
-        }
-        .image {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            img {
-                width: 70%;
-            }
-        }
-    }
     .content-title {
         display: flex;
         justify-content: center;
@@ -47,6 +33,75 @@
         img {
             height: 100%;
             margin-left: 3vw;
+        }
+    }
+    .nav-zoro {
+        p {
+            margin: 7vh 0;
+        }
+        .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70%;
+            }
+        }
+    }
+    .presentation {
+        height: 220vh;
+        max-width: 100%;
+        margin-bottom: 4vh;
+        .timeline-image {
+            @include grid-images;
+            grid-row: 1 / 4;
+            grid-column: 1 / 2;
+        }
+        .timeline-text {
+            @include grid-text;
+            grid-row: 2 / 3;
+            grid-column: 4 / 7;
+        }
+        .histoire-text {
+            @include grid-text;
+            grid-row: 6 / 7;
+            grid-column: 1 / 2;
+        }
+        .histoire-image {
+            @include grid-images;
+            grid-row: 5 / 8;
+            grid-column: 4 / 7;
+        }
+        .text-autres {
+            @include grid-text;
+            grid-row: 9 / 10;
+            grid-column: 1 / 7;
+        }
+        .galerie {
+            @include grid-images;
+            grid-row: 11 / 12;
+            grid-column: 1 / 3;
+        }
+        .article {
+            @include grid-images;
+            grid-row: 11 / 12;
+            grid-column: 3 / 6;
+        }
+        .contact {
+            @include grid-images;
+            grid-row: 11 / 12;
+            grid-column: 6 / 7;
+        }
+        .responsive-text {
+            @include grid-text;
+            grid-row: 14 / 15;
+            grid-column: 1 / 4;
+        }
+        .responsive-image {
+            @include grid-images;
+            grid-row: 13 / 16;
+            grid-column: 6 / 7;
         }
     }
 }

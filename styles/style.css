@@ -7,14 +7,36 @@ footer {
   align-items: center;
   background-color: #333333;
 }
+@media screen and (max-width: 1000px) {
+  footer {
+    padding: 0 5%;
+  }
+}
 footer a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #ffffff;
 }
+@media screen and (max-width: 1000px) {
+  footer a {
+    font-size: 0.7em;
+    visibility: hidden;
+    width: 0;
+  }
+}
 footer a i {
   margin-right: 10px;
+}
+@media screen and (max-width: 1000px) {
+  footer a i {
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 1000px) {
+  footer p {
+    font-size: 0.7em;
+  }
 }
 
 .presentation {

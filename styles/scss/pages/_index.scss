@@ -3,7 +3,7 @@
     height: 85vh;
     background-color: $secondary-background-color;
     padding: 50px 13%;
-    @include responisve {
+    @include responsive {
         height: auto;
     }
     h2 {

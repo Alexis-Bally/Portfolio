@@ -46,8 +46,18 @@ header {
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width: 1000px) {
+  header {
+    background-size: 150% 150%;
+  }
+}
 header .titles {
   width: 25%;
+}
+@media screen and (max-width: 1000px) {
+  header .titles {
+    width: 70%;
+  }
 }
 header .titles h1 {
   display: flex;

@@ -8,8 +8,14 @@ header {
     background-image: url('../img/header_background.png');
     background-position: center;
     background-size: cover;
+    @include responisve {
+        background-size: 150% 150%;
+    }
     .titles {
         width: 25%;
+        @include responisve {
+            width: 70%;
+        }
         h1 {
             display: flex;
             margin-bottom: 5vh;

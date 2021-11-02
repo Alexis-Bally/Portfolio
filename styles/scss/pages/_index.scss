@@ -3,6 +3,9 @@
     height: 85vh;
     background-color: $secondary-background-color;
     padding: 50px 13%;
+    @include responisve {
+        height: auto;
+    }
     h2 {
         font-size: 2.5em;
         padding-top: 2vh;
@@ -14,8 +17,16 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        @include responisve {
+            flex-direction: column;
+            height: auto;
+        }
         .illustration {
             width: 30%;
+            @include responisve {
+                width: 100%;
+                margin: 10vh 0;
+            }
             img {
                 width: 100%;
             }
@@ -27,6 +38,10 @@
             border-radius: 20px;
             box-shadow: 0 5px 10px $purple-1;
             font-size: 1.2em;
+            @include responisve {
+                width: 100%;
+                margin-bottom: 10vh;
+            }
             p {
                 text-align: justify;
             }

@@ -17,13 +17,13 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        @include responisve {
+        @include responsive {
             flex-direction: column;
             height: auto;
         }
         .illustration {
             width: 30%;
-            @include responisve {
+            @include responsive {
                 width: 100%;
                 margin: 10vh 0;
             }
@@ -38,7 +38,7 @@
             border-radius: 20px;
             box-shadow: 0 5px 10px $purple-1;
             font-size: 1.2em;
-            @include responisve {
+            @include responsive {
                 width: 100%;
                 margin-bottom: 10vh;
             }

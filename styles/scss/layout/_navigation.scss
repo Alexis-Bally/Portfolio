@@ -11,7 +11,7 @@ nav {
     h2 {
         width: auto;
         font-size: 2em;
-        @include responisve {
+        @include responsive {
             display: none;
         }
     }
@@ -19,7 +19,7 @@ nav {
         display: flex;
         justify-content: space-around;
         width: 45%;
-        @include responisve {
+        @include responsive {
             width: 100%;
         }
         li {
@@ -30,7 +30,7 @@ nav {
                 text-decoration: none;
                 font-size: 1.7em;
                 color: $text-color;
-                @include responisve {
+                @include responsive {
                     font-size: 1.2em;
                 }
             }

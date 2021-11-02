@@ -6,7 +6,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: $nav-footer-background-color;
-    @include responisve {
+    @include responsive {
         padding: 0 5%;
     }
     a {
@@ -14,19 +14,19 @@ footer {
         align-items: center;
         text-decoration: none;
         color: $text-color;
-        @include responisve {
+        @include responsive {
             font-size: 0.7em;
             visibility: hidden;
             width: 0;
         }
         i {
             margin-right: 10px;
-            @include responisve {
+            @include responsive {
                 visibility: visible;
             }
         }
     }
-    @include responisve {
+    @include responsive {
         p {
             font-size: 0.7em;
         }

@@ -21,7 +21,7 @@
     margin: 0 auto;
 }
 
-@mixin responisve {
+@mixin responsive {
     @media screen and (max-width: 1000px) {
         @content
     }

@@ -160,6 +160,11 @@ nav ul li .nav-link-underline {
   font-size: 1em;
   cursor: pointer;
 }
+@media screen and (max-width: 1000px) {
+  .projet .button button {
+    width: auto;
+  }
+}
 
 .first-section {
   width: 100%;
@@ -309,6 +314,12 @@ nav ul li .nav-link-underline {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 1000px) {
+  .projet h3 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
 .projet .description {
   height: auto;
   padding: 10vh 0;
@@ -316,19 +327,40 @@ nav ul li .nav-link-underline {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 1000px) {
+  .projet .description {
+    flex-direction: column;
+    padding: 5vh 0;
+  }
+}
 .projet .description .portrait {
   width: 30%;
   border-radius: 10px;
 }
+@media screen and (max-width: 1000px) {
+  .projet .description .portrait {
+    width: 100%;
+  }
+}
 .projet .description .paysage {
   width: 45%;
   border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .projet .description .paysage {
+    width: 100%;
+  }
 }
 .projet .description .text {
   width: 60%;
   padding: 5vh 2vw;
   border-radius: 20px;
   font-size: 1.2em;
+}
+@media screen and (max-width: 1000px) {
+  .projet .description .text {
+    width: 100%;
+  }
 }
 .projet .description .text p {
   text-align: justify;
@@ -339,6 +371,11 @@ nav ul li .nav-link-underline {
 .projet .description .text-paysage {
   width: 45%;
 }
+@media screen and (max-width: 1000px) {
+  .projet .description .text-paysage {
+    width: auto;
+  }
+}
 .projet .button {
   display: flex;
   justify-content: end;
@@ -348,8 +385,18 @@ nav ul li .nav-link-underline {
   height: auto;
   padding: 10vh 13%;
 }
+@media screen and (max-width: 1000px) {
+  .projet-paysage {
+    padding: 5vh 13%;
+  }
+}
 .projet-paysage .description-paysage {
   height: 45vh;
+}
+@media screen and (max-width: 1000px) {
+  .projet-paysage .description-paysage {
+    height: auto;
+  }
 }
 
 .image-top {

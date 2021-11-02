@@ -11,6 +11,10 @@
         padding-top: 2vh;
         display: flex;
         justify-content: center;
+        @include responsive {
+            text-align: center;
+            font-size: 1.5em;
+        }
     }
     .description {
         height: auto;
@@ -18,19 +22,32 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @include responsive {
+            flex-direction: column;
+            padding: 5vh 0;
+        }
         .portrait {
             width: 30%;
             border-radius: 10px;
+            @include responsive {
+                width: 100%;
+            }
         }
         .paysage {
             width: 45%;
             border-radius: 10px;
+            @include responsive {
+                width: 100%;
+            }
         }
         .text {
             width: 60%;
             padding: 5vh 2vw;
             border-radius: 20px;
             font-size: 1.2em;
+            @include responsive {
+                width: 100%;
+            }
             p {
                 text-align: justify;
             }
@@ -40,6 +57,9 @@
         }
         .text-paysage {
             width: 45%;
+            @include responsive {
+                width: auto;
+            }
         }
     }
     .button {
@@ -51,7 +71,13 @@
 .projet-paysage {
     height: auto;
     padding: 10vh 13%;
+    @include responsive {
+        padding: 5vh 13%;
+    }
     .description-paysage {
         height: 45vh;
+        @include responsive {
+            height: auto;
+        }
     }
 }

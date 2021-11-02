@@ -562,6 +562,11 @@ nav ul li .nav-link-underline {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 1000px) {
+  .first-image {
+    height: auto;
+  }
+}
 .first-image img {
   width: 100%;
   border-radius: 15px;
@@ -575,6 +580,11 @@ nav ul li .nav-link-underline {
   text-align: justify;
   margin: 10vh 0;
 }
+@media screen and (max-width: 1000px) {
+  .site-content p {
+    font-size: 17px;
+  }
+}
 .site-content .content-title {
   display: flex;
   justify-content: center;
@@ -587,6 +597,13 @@ nav ul li .nav-link-underline {
   display: flex;
   align-items: center;
   flex-direction: row;
+}
+@media screen and (max-width: 1000px) {
+  .site-content .technos {
+    height: 5vh;
+    width: 100%;
+    padding: 1%;
+  }
 }
 .site-content .technos img {
   height: 100%;
@@ -604,10 +621,20 @@ nav ul li .nav-link-underline {
 .site-content .nav-zoro .image img {
   width: 70%;
 }
+@media screen and (max-width: 1000px) {
+  .site-content .nav-zoro .image img {
+    width: 100%;
+  }
+}
 .site-content .presentation {
   height: 220vh;
   max-width: 100%;
   margin-bottom: 4vh;
+}
+@media screen and (max-width: 1000px) {
+  .site-content .presentation {
+    height: auto;
+  }
 }
 .site-content .presentation .timeline-image {
   width: 100%;
@@ -680,6 +707,42 @@ nav ul li .nav-link-underline {
   margin: 0 auto;
   grid-row: 13/16;
   grid-column: 6/7;
+}
+@media screen and (max-width: 1000px) {
+  .site-content .presentation {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-content .presentation .timeline-image {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .timeline-text {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .histoire-text {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .histoire-image {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .text-autres {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .galerie {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .article {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .contact {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .responsive-text {
+    margin: 2vh 0;
+  }
+  .site-content .presentation .responsive-image {
+    margin: 2vh 0;
+  }
 }
 
 * {

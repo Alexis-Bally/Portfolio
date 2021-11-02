@@ -5,6 +5,9 @@
     padding: 50px 13%;
     display: flex;
     align-items: center;
+    @include responsive {
+        height: auto;
+    }
     img {
         width: 100%;
         border-radius: 15px;
@@ -17,6 +20,9 @@
         font-size: 24px;
         text-align: justify;
         margin: 10vh 0;
+        @include responsive {
+            font-size: 17px;
+        }
     }
     .content-title {
         display: flex;
@@ -30,6 +36,11 @@
         display: flex;
         align-items: center;
         flex-direction: row;
+        @include responsive {
+            height: 5vh;
+            width: 100%;
+            padding: 1%;
+        }
         img {
             height: 100%;
             margin-left: 3vw;
@@ -46,6 +57,9 @@
             align-items: center;
             img {
                 width: 70%;
+                @include responsive {
+                    width: 100%;
+                }
             }
         }
     }
@@ -53,6 +67,9 @@
         height: 220vh;
         max-width: 100%;
         margin-bottom: 4vh;
+        @include responsive {
+            height: auto;
+        }
         .timeline-image {
             @include grid-images;
             grid-row: 1 / 4;
@@ -102,6 +119,40 @@
             @include grid-images;
             grid-row: 13 / 16;
             grid-column: 6 / 7;
+        }
+        @include responsive {
+            display: flex;
+            flex-direction: column;
+            .timeline-image {
+                margin: 2vh 0;
+            }
+            .timeline-text {
+                margin: 2vh 0;
+            }
+            .histoire-text {
+                margin: 2vh 0;
+            }
+            .histoire-image {
+                margin: 2vh 0;
+            }
+            .text-autres {
+                margin: 2vh 0;
+            }
+            .galerie {
+                margin: 2vh 0;
+            }
+            .article {
+                margin: 2vh 0;
+            }
+            .contact {
+                margin: 2vh 0;
+            }
+            .responsive-text {
+                margin: 2vh 0;
+            }
+            .responsive-image {
+                margin: 2vh 0;
+            }
         }
     }
 }

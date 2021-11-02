@@ -171,7 +171,8 @@ nav ul li .nav-link-underline {
   justify-content: space-around;
 }
 .skills-icons .skill-line img {
-  height: 50%;
+  width: 100%;
+  height: 10vh;
 }
 
 .skills-texts {

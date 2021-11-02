@@ -54,5 +54,74 @@
         height: 220vh;
         max-width: 100%;
         margin-bottom: 4vh;
+        .accueil-image {
+            @include grid-images;
+            grid-row: 1 / 4;
+            grid-column: 1 / 3;
+        }
+        .accueil-text {
+            @include grid-text;
+            grid-row: 2 / 3;
+            grid-column: 4 / 9;
+        }
+        .palette {
+            @include grid-images;
+            grid-row: 6 / 7;
+            grid-column: 2 / 8;
+        }
+        .palette-text {
+            @include grid-text;
+            grid-row: 5 / 6;
+            grid-column: 1 / 9;
+        }
+        .goodies-image {
+            @include grid-images;
+            grid-row: 8 / 11;
+            grid-column: 6 / 9;
+        }
+        .goodies-text {
+            @include grid-text;
+            grid-row: 9 / 10;
+            grid-column: 1 / 4;
+        }
+        .produit-image {
+            @include grid-images;
+            grid-row: 12 / 15;
+            grid-column: 1 / 4;
+        }
+        .produit-text {
+            @include grid-text;
+            grid-row: 13 / 14;
+            grid-column: 6 / 9;
+        }
+        .text-autres {
+            @include grid-text;
+            grid-row: 16 / 17;
+            grid-column: 1 / 9;
+        }
+        .contact {
+            @include grid-images;
+            object-fit: cover;
+            grid-row: 18 / 19;
+            grid-column: 1 / 3;
+        }
+        .favoris {
+            @include grid-images;
+            object-fit: cover;
+            grid-row: 18 / 19;
+            grid-column: 3 / 6;
+        }
+        .panier {
+            @include grid-images;
+            object-fit: cover;
+            grid-row: 18 / 19;
+            grid-column: 6 / 7;
+        }
+        .profil {
+            @include grid-images;
+            object-fit: cover;  
+            grid-row: 18 / 19;
+            grid-column: 7 / 9;
+        }
     }
 }

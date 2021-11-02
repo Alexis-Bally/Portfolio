@@ -26,6 +26,15 @@ footer a i {
   column-gap: 20px;
 }
 
+.presentation-goodies {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4fr 1fr 2fr 1fr 1fr 5fr 1fr 4fr;
+  grid-template-rows: 3fr 1fr 4fr 5fr 2fr 4fr 5fr 3fr 2fr 2fr 5fr 3fr 2fr 2fr 5fr 2fr 1fr 3fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
 header {
   width: 100%;
   height: 80vh;
@@ -303,6 +312,104 @@ nav ul li .nav-link-underline {
   height: 220vh;
   max-width: 100%;
   margin-bottom: 4vh;
+}
+.site-content .presentation-goodies .accueil-image {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  grid-row: 1/4;
+  grid-column: 1/3;
+}
+.site-content .presentation-goodies .accueil-text {
+  width: 100%;
+  margin: 0 auto;
+  grid-row: 2/3;
+  grid-column: 4/9;
+}
+.site-content .presentation-goodies .palette {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  grid-row: 6/7;
+  grid-column: 2/8;
+}
+.site-content .presentation-goodies .palette-text {
+  width: 100%;
+  margin: 0 auto;
+  grid-row: 5/6;
+  grid-column: 1/9;
+}
+.site-content .presentation-goodies .goodies-image {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  grid-row: 8/11;
+  grid-column: 6/9;
+}
+.site-content .presentation-goodies .goodies-text {
+  width: 100%;
+  margin: 0 auto;
+  grid-row: 9/10;
+  grid-column: 1/4;
+}
+.site-content .presentation-goodies .produit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  grid-row: 12/15;
+  grid-column: 1/4;
+}
+.site-content .presentation-goodies .produit-text {
+  width: 100%;
+  margin: 0 auto;
+  grid-row: 13/14;
+  grid-column: 6/9;
+}
+.site-content .presentation-goodies .text-autres {
+  width: 100%;
+  margin: 0 auto;
+  grid-row: 16/17;
+  grid-column: 1/9;
+}
+.site-content .presentation-goodies .contact {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  object-fit: cover;
+  grid-row: 18/19;
+  grid-column: 1/3;
+}
+.site-content .presentation-goodies .favoris {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  object-fit: cover;
+  grid-row: 18/19;
+  grid-column: 3/6;
+}
+.site-content .presentation-goodies .panier {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  object-fit: cover;
+  grid-row: 18/19;
+  grid-column: 6/7;
+}
+.site-content .presentation-goodies .profil {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  margin: 0 auto;
+  object-fit: cover;
+  grid-row: 18/19;
+  grid-column: 7/9;
 }
 
 .first-image {

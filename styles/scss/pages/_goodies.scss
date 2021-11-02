@@ -1,11 +1,13 @@
 .image-top {
-    height: 100%;
     height: 85vh;
     background-color: $secondary-background-color;
     padding: 50px 13%;
     display: flex;
     align-items: center;
     justify-content: center;
+    @include responsive {
+        height: 55vh;
+    }
     img {
         height: 90%;
         border-radius: 15px;
@@ -47,6 +49,9 @@
             align-items: center;
             img {
                 width: 70%;
+                @include responsive {
+                    width: 100%;
+                }
             }
         }
     }
@@ -54,6 +59,9 @@
         height: 220vh;
         max-width: 100%;
         margin-bottom: 4vh;
+        @include responsive {
+            height: auto;
+        }
         .accueil-image {
             @include grid-images;
             grid-row: 1 / 4;
@@ -122,6 +130,49 @@
             object-fit: cover;  
             grid-row: 18 / 19;
             grid-column: 7 / 9;
+        }
+        @include responsive {
+            display: flex;
+            flex-direction: column;
+            .accueil-image {
+                margin: 2vh 0;
+            }
+            .accueil-text {
+                margin: 2vh 0;
+            }
+            .palette {
+                margin: 2vh 0;
+            }
+            .palette-text {
+                margin: 2vh 0;
+            }
+            .goodies-image {
+                margin: 2vh 0;
+            }
+            .goodies-text {
+                margin: 2vh 0;
+            }
+            .produit-image {
+                margin: 2vh 0;
+            }
+            .produit-text {
+                margin: 2vh 0;
+            }
+            .text-autres {
+                margin: 2vh 0;
+            }
+            .contact {
+                margin: 2vh 0;
+            }
+            .favoris {
+                margin: 2vh 0;
+            }
+            .panier {
+                margin: 2vh 0;
+            }
+            .profil {
+                margin: 2vh 0;
+            }
         }
     }
 }

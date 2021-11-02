@@ -20,3 +20,9 @@
     width: 100%;
     margin: 0 auto;
 }
+
+@mixin responisve {
+    @media screen and (max-width: 1000px) {
+        @content
+    }
+}

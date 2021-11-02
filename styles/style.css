@@ -80,10 +80,20 @@ nav h2 {
   width: auto;
   font-size: 2em;
 }
+@media screen and (max-width: 1000px) {
+  nav h2 {
+    display: none;
+  }
+}
 nav ul {
   display: flex;
   justify-content: space-around;
   width: 45%;
+}
+@media screen and (max-width: 1000px) {
+  nav ul {
+    width: 100%;
+  }
 }
 nav ul li {
   display: flex;
@@ -94,6 +104,11 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.7em;
   color: #ffffff;
+}
+@media screen and (max-width: 1000px) {
+  nav ul li a {
+    font-size: 1.2em;
+  }
 }
 nav ul li .nav-link-underline {
   text-decoration: underline;

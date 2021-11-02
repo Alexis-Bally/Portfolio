@@ -248,6 +248,63 @@ nav ul li .nav-link-underline {
   height: 45vh;
 }
 
+.image-top {
+  height: 100%;
+  height: 85vh;
+  background-color: #262626;
+  padding: 50px 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-top img {
+  height: 90%;
+  border-radius: 15px;
+}
+
+.site-content {
+  padding: 50px 13%;
+}
+.site-content p {
+  font-size: 24px;
+  text-align: justify;
+  margin: 10vh 0;
+}
+.site-content .content-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+}
+.site-content .technos {
+  height: 10vh;
+  margin: 10vh 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.site-content .technos img {
+  height: 100%;
+  margin-left: 3vw;
+}
+.site-content .nav-goodies p {
+  margin: 7vh 0;
+}
+.site-content .nav-goodies .image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-content .nav-goodies .image img {
+  width: 70%;
+}
+.site-content .presentation-goodies {
+  height: 220vh;
+  max-width: 100%;
+  margin-bottom: 4vh;
+}
+
 .first-image {
   width: 100%;
   height: 85vh;

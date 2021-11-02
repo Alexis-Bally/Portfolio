@@ -1,0 +1,58 @@
+.image-top {
+    height: 100%;
+    height: 85vh;
+    background-color: $secondary-background-color;
+    padding: 50px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        height: 90%;
+        border-radius: 15px;
+    }
+}
+
+.site-content {
+    padding: 50px 13%;
+    p {
+        font-size: 24px;
+        text-align: justify;
+        margin: 10vh 0;
+    }
+    .content-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0;
+    }
+    .technos {
+        height: 10vh;
+        margin: 10vh 0;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        img {
+            height: 100%;
+            margin-left: 3vw;
+        }
+    }
+    .nav-goodies {
+        p {
+            margin: 7vh 0;
+        }
+        .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70%;
+            }
+        }
+    }
+    .presentation-goodies {
+        height: 220vh;
+        max-width: 100%;
+        margin-bottom: 4vh;
+    }
+}

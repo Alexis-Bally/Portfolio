@@ -39,6 +39,14 @@ footer a i {
   }
 }
 
+.mail {
+  display: flex;
+  align-items: center;
+}
+.mail i {
+  margin-right: 5px;
+}
+
 .presentation {
   margin: 0 auto;
   display: grid;
@@ -118,8 +126,8 @@ nav h2 {
   }
 }
 nav .logo {
-  height: 100%;
-  width: 2em;
+  display: flex;
+  height: 8vh;
 }
 nav ul {
   display: flex;
@@ -150,6 +158,12 @@ nav ul li .nav-link-underline {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1000px) {
+  .accueil {
+    display: none;
+  }
+}
+
 .container {
   padding-top: 8vh;
 }
@@ -157,8 +171,8 @@ nav ul li .nav-link-underline {
 .projet .button button {
   width: 8vw;
   height: 4vh;
-  background-color: #B54CFF;
-  border: 5px solid #8700E8;
+  background-color: #8700E8;
+  border: none;
   border-radius: 10px;
   color: #ffffff;
   font-size: 1em;

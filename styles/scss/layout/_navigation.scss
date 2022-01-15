@@ -16,8 +16,8 @@ nav {
         }
     }
     .logo {
-        height: 100%;
-        width: 2em;
+        display: flex;
+        height: 8vh;
     }
     ul {
         display: flex;
@@ -42,6 +42,12 @@ nav {
                 text-decoration: underline;
             }
         }
+    }
+}
+
+.accueil {
+    @include responsive {
+        display: none;
     }
 }
 

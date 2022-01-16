@@ -45,6 +45,7 @@
     "sass": "sass --watch styles/style.scss:styles/style.css"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "sass": "^1.48.0"
   }
 }

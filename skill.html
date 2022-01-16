@@ -34,16 +34,34 @@
         <div class="skills-icons">
             <div class="skill-line">
                 <a href="#html"><img src="img/icons/icon html.png" alt="html"></a>
+                <a href="#php"><img src="img/icons/icon php.png" alt="php"></a>
+                <a href="#php"><img src="img/icons/icon mysql.png" alt="mySQL"></a>
                 <a href="#css"><img src="img/icons/icon css.png" alt="css"></a>
+                <a href="#sass"><img src="img/icons/icon sass.png" alt="sass"></a>
+                <a href="#tailwind"><img src="img/icons/icon tailwind.png" alt="tailwind"></a>
                 <a href="#js"><img src="img/icons/icon js.png" alt="javascript"></a>
-                <a href="#html"><img src="img/icons/icon php.png" alt="php"></a>
+                <a href="#python"><img src="img/icons/icon python.png" alt="python"></a>
+                <a href="#wordpress"><img src="img/icons/icon wordpress.png" alt="wordpress"></a>
             </div>
-            <div class="skill-line">
+            <div class="skill-line skill-line_bottom">
                 <a href="#adobe"><img src="img/icons/icon illustrator.png" alt="Illustrator"></a>
                 <a href="#adobe"><img src="img/icons/icon photoshop.png" alt="Photoshop"></a>
                 <a href="#adobe"><img src="img/icons/icon xd.png" alt="Adobe XD"></a>
                 <a href="#adobe"><img src="img/icons/icon figma.png" alt="Figma"></a>
+                <a href="#github"><img src="img/icons/icon github.png" alt="Github"></a>
             </div>
+        </div>
+        <div class="skills-texts" id="html">
+            <h2>HTML</h2>
+            <div class="line"></div>
+            <p>Je sais utiliser l’HTML, je maitrise les bases du language, par exemple l’utilisation des bonnes balises et la mise en place de formulaires.</p>
+        </div>
+        <div class="skills-texts" id="php">
+            <h2>PHP / MySQL</h2>
+            <div class="line"></div>
+            <p>Malgré le fait que je m’intéresse plus au front-end, je connais les bases du PHP et sais comment rentrer des informations envoyé d’un formulaire dans une base de donnée puis les afficher à un autre endroit.
+                Je sais aussi le couplé avec le MySQL et utiliser les bases de données, modifier les informations dedans, les supprimer etc.
+            </p>
         </div>
         <div class="skills-texts" id="css">
             <h2>CSS</h2>
@@ -52,12 +70,15 @@
                 Je sais aussi utiliser les Grid et les flexbox pour placer les éléments sur la page.
                 J’ai aussi appris le SCSS, également appellé SASS, avec lequel je peux utiliser les mixin par exemple.</p>
         </div>
-        <div class="skills-texts" id="html">
-            <h2>HTML / PHP</h2>
+        <div class="skills-texts" id="sass">
+            <h2>Sass</h2>
             <div class="line"></div>
-            <p>Je sais utiliser l’HTML mais aussi le couplé avec le PHP. 
-                En ce qui concerne l’HTML, je maitrise les bases du language, par exemple l’utilisation des bonnes balises et la mise en place de formulaires.
-                Malgré le fait que je m’intéresse plus au front-end, je connais les bases du PHP et sais comment rentrer des informations envoyé d’un formulaire dans une base de donnée puis les afficher à un autre endroit.</p>
+            <p>Je suis capable d'utiliser SASS, et après l'avoir découvert je le trouve beaucoup plus pratique et me permet de coder plus facilement et plus rapidement.</p>
+        </div>
+        <div class="skills-texts" id="tailwind">
+            <h2>Tailwind</h2>
+            <div class="line"></div>
+            <p>En plus de SASS, j'ai appris a utiliser Tailwind pour styliser un site.</p>
         </div>
         <div class="skills-texts" id="js">
             <h2>JavaScript</h2>
@@ -65,11 +86,34 @@
             <p>Je peux utiliser le JavaScript pour faire toutes sortes de simples animations, comme l’apparition d’un menu pour un menu burger. 
                 Je peux également créer un slider d’images ou un bouton dark mode.</p>
         </div>
+        <div class="skills-texts" id="python">
+            <h2>Python</h2>
+            <div class="line"></div>
+            <p>Je sais me servir des bases de python.
+                J'ai appris à utiliser les variables, les listes, les tuples, les dictionnaires, les fonctions etc.
+                J'ai créer des petits jeux, convertir du binaire en hexadécimal et générer des mots de passe.</p>
+        </div>
+        <div class="skills-texts" id="wordpress">
+            <h2>Wordpress</h2>
+            <div class="line"></div>
+            <p>J'ai utiliser Wordpress pour plusieurs projets et je sais créer des themes et des themes child.
+                Je peux aussi utiliser des extensions en fonction des besoins.
+            </p>
+        </div>
         <div class="skills-texts" id="adobe">
             <h2>Adobe / Figma</h2>
             <div class="line"></div>
             <p>Figma et XD sont deux logiciels avec lesquels je n’est aucun problème à travailler pour faire toute sortes de prototypes et maquettes.
                 Ce n’est pas ma fonction première mais je suis également capable d’utiliser quelques logiciels Adobe, dont Illustrator et Photoshop, qui font parti de ceux que j’ai le plus utilisé et par conséquent de ceux que je maitrise le mieux.</p>
+        </div>
+        <div class="skills-texts" id="github">
+            <h2>GitHub</h2>
+            <div class="line"></div>
+            <p>J'utilise GitHub pour tout mes projets, il me sert à les garder et à travailler en groupe.
+                J'apprécie vraiment l'utiliser.
+                J'ai appris à commit, push, pull, utiliser les branches.
+                Je sais aussi l'utiliser avec GitKraken.
+            </p>
         </div>
 
         <button onclick="topFunction()" id="topbutton" class="topbutton" title="Go to top"><i class="fas fa-arrow-up fa-2x"></i></button>
@@ -77,7 +121,7 @@
         <footer>
             <a target="_blank" href="https://github.com/Alexis-Bally"><i class="fab fa-github fa-2x"></i>GitHub</a>
             <a target="_blank" href="https://www.linkedin.com/in/alexis-bally/"><i class="fab fa-linkedin fa-2x"></i>Linkedin</a>
-            <p class="mail"><i class="fas fa-envelope fa-2x"></i> : ballyalexis02@gmail.com</p>
+            <a target="_blank" href="mailto:ballyalexis02@gmail.com" title="Envoyez-moi un mail" class="mail"><i class="fas fa-envelope fa-2x"></i> : ballyalexis02@gmail.com</a>
         </footer>
 
     </div>

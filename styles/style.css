@@ -169,7 +169,8 @@ nav ul li .nav-link-underline {
 }
 
 .projet .button button {
-  width: 8vw;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 4vh;
   background-color: #8700E8;
   border: none;
@@ -180,6 +181,23 @@ nav ul li .nav-link-underline {
 }
 @media screen and (max-width: 1000px) {
   .projet .button button {
+    width: auto;
+  }
+}
+
+.first-section .button button {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 4vh;
+  background-color: #8700E8;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .first-section .button button {
     width: auto;
   }
 }
@@ -202,7 +220,7 @@ nav ul li .nav-link-underline {
   justify-content: center;
 }
 .first-section .content {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -245,16 +263,34 @@ nav ul li .nav-link-underline {
 .first-section .content .infos :nth-child(2) {
   margin-top: 1vh;
 }
-
-.reveal {
-  transition: all 0.5s ease 0.25s;
-  opacity: 0;
-  transform: translateX(100px);
+.first-section .button {
+  display: flex;
+  justify-content: center;
 }
 
-.reveal.animate {
+.trans-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition-delay: 0.2s;
+}
+
+.trans-right {
+  opacity: 0;
+  transform: translateX(80px);
+  transition-delay: 0.2s;
+}
+
+.trans-bot {
+  opacity: 0;
+  transform: translateY(100px);
+  transition-delay: 0.2s;
+}
+
+.trans-visible {
   opacity: 1;
   transform: translateX(0);
+  translate: translateY(0);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }
 
 .skills-icons {
@@ -403,6 +439,25 @@ nav ul li .nav-link-underline {
 }
 .projet .description .text :nth-child(2) {
   margin-top: 1vh;
+}
+.projet .description .text .technos {
+  height: 5vh;
+  margin: 5vh 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+@media screen and (max-width: 1000px) {
+  .projet .description .text .technos {
+    height: 5vh;
+    width: 100%;
+    padding: 1%;
+  }
+}
+.projet .description .text .technos img {
+  height: 100%;
+  margin-left: 3vw;
+  margin-top: 0;
 }
 .projet .description .text-paysage {
   width: 45%;

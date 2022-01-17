@@ -46,7 +46,7 @@
             margin-left: 3vw;
         }
     }
-    .nav-zoro {
+    .nav-project {
         p {
             margin: 7vh 0;
         }
@@ -74,6 +74,10 @@
             @include grid-images;
             grid-row: 1 / 4;
             grid-column: 1 / 2;
+            &_open3 {
+                grid-row: 2 / 3;
+                grid-column: 1 / 3;
+            }
         }
         .timeline-text {
             @include grid-text;
@@ -84,21 +88,33 @@
             @include grid-text;
             grid-row: 6 / 7;
             grid-column: 1 / 2;
+            &_open3 {
+                grid-row: 4 / 5;
+            }
         }
         .histoire-image {
             @include grid-images;
             grid-row: 5 / 8;
             grid-column: 4 / 7;
+            &_open3 {
+                grid-row: 4 / 5;
+            }
         }
         .text-autres {
             @include grid-text;
             grid-row: 9 / 10;
             grid-column: 1 / 7;
+            &_open3 {
+                grid-row: 6 / 7;
+            }
         }
         .galerie {
             @include grid-images;
             grid-row: 11 / 12;
             grid-column: 1 / 3;
+            &_open3 {
+                grid-row: 7 / 8;
+            }
         }
         .article {
             @include grid-images;
@@ -109,6 +125,10 @@
             @include grid-images;
             grid-row: 11 / 12;
             grid-column: 6 / 7;
+            &_open3 {
+                grid-row: 7 / 8;
+                grid-column: 5 / 7;
+            }
         }
         .responsive-text {
             @include grid-text;
@@ -154,5 +174,8 @@
                 margin: 2vh 0;
             }
         }
+    }
+    .open3 {
+        height: 170vh;
     }
 }

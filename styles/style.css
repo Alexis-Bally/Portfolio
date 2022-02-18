@@ -10,6 +10,7 @@ footer {
 @media screen and (max-width: 1000px) {
   footer {
     padding: 0 5%;
+    width: auto;
   }
 }
 footer a {

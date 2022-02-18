@@ -29,6 +29,7 @@ footer {
     @include responsive {
         p {
             font-size: 0.7em;
+            display: none;
         }
     }
 }

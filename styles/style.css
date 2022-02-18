@@ -3,14 +3,13 @@ footer {
   min-height: 8vh;
   padding: 0 30%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #333333;
 }
 @media screen and (max-width: 1000px) {
   footer {
     padding: 0 5%;
-    width: auto;
   }
 }
 footer a {
@@ -22,17 +21,10 @@ footer a {
 @media screen and (max-width: 1000px) {
   footer a {
     font-size: 0.7em;
-    visibility: hidden;
-    width: 0;
   }
 }
 footer a i {
   margin-right: 10px;
-}
-@media screen and (max-width: 1000px) {
-  footer a i {
-    visibility: visible;
-  }
 }
 @media screen and (max-width: 1000px) {
   footer p {
@@ -109,7 +101,7 @@ nav {
   padding: 0 13%;
   display: flex;
   position: fixed;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #333333;
 }
@@ -707,6 +699,7 @@ nav ul li .nav-link-underline {
   padding: 0;
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {

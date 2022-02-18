@@ -3,12 +3,11 @@ footer {
     min-height: 8vh;
     padding: 0 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: $nav-footer-background-color;
     @include responsive {
         padding: 0 5%;
-        width: auto;
     }
     a {
         display: flex;
@@ -17,14 +16,9 @@ footer {
         color: $text-color;
         @include responsive {
             font-size: 0.7em;
-            visibility: hidden;
-            width: 0;
         }
         i {
             margin-right: 10px;
-            @include responsive {
-                visibility: visible;
-            }
         }
     }
     @include responsive {

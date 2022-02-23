@@ -92,9 +92,6 @@
         padding: 5vh 13%;
     }
     .description-paysage {
-        height: 45vh;
-        @include responsive {
-            height: auto;
-        }
+        height: auto;
     }
 }

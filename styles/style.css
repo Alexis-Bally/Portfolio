@@ -7,7 +7,7 @@ footer {
   align-items: center;
   background-color: #333333;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   footer {
     padding: 0 5%;
   }
@@ -18,15 +18,16 @@ footer a {
   text-decoration: none;
   color: #ffffff;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   footer a {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }
 footer a i {
   margin-right: 10px;
+  min-height: 4vh;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   footer p {
     font-size: 0.7em;
     display: none;
@@ -65,7 +66,7 @@ header {
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   header {
     background-size: 150% 150%;
   }
@@ -73,7 +74,7 @@ header {
 header .titles {
   width: 25%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   header .titles {
     width: 70%;
   }
@@ -98,7 +99,7 @@ nav {
   width: 100%;
   min-height: 8vh;
   z-index: 5;
-  padding: 0 13%;
+  padding: 0 10%;
   display: flex;
   position: fixed;
   justify-content: space-evenly;
@@ -109,7 +110,7 @@ nav h2 {
   width: auto;
   font-size: 2em;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   nav h2 {
     display: none;
   }
@@ -123,7 +124,7 @@ nav ul {
   justify-content: space-around;
   width: 45%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   nav ul {
     width: 100%;
   }
@@ -138,7 +139,7 @@ nav ul li a {
   font-size: 1.7em;
   color: #ffffff;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   nav ul li a {
     font-size: 1.2em;
   }
@@ -147,7 +148,7 @@ nav ul li .nav-link-underline {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .accueil {
     display: none;
   }
@@ -168,7 +169,7 @@ nav ul li .nav-link-underline {
   font-size: 1em;
   cursor: pointer;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .button button {
     width: auto;
   }
@@ -185,7 +186,7 @@ nav ul li .nav-link-underline {
   font-size: 1em;
   cursor: pointer;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .first-section .button button {
     width: auto;
   }
@@ -197,7 +198,7 @@ nav ul li .nav-link-underline {
   background-color: #262626;
   padding: 50px 13%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .first-section {
     height: auto;
   }
@@ -214,7 +215,7 @@ nav ul li .nav-link-underline {
   align-items: center;
   justify-content: space-around;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .first-section .content {
     flex-direction: column;
     height: auto;
@@ -223,7 +224,7 @@ nav ul li .nav-link-underline {
 .first-section .content .illustration {
   width: 30%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .first-section .content .illustration {
     width: 100%;
     margin: 10vh 0;
@@ -240,7 +241,7 @@ nav ul li .nav-link-underline {
   box-shadow: 0 5px 10px #8700E8;
   font-size: 1.2em;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .first-section .content .infos {
     width: 100%;
     margin-bottom: 10vh;
@@ -257,41 +258,16 @@ nav ul li .nav-link-underline {
   justify-content: center;
 }
 
-.trans-left {
-  opacity: 0;
-  transform: translateX(-80px);
-  transition-delay: 0.2s;
-}
-
-.trans-right {
-  opacity: 0;
-  transform: translateX(80px);
-  transition-delay: 0.2s;
-}
-
-.trans-bot {
-  opacity: 0;
-  transform: translateY(100px);
-  transition-delay: 0.2s;
-}
-
-.trans-visible {
-  opacity: 1;
-  transform: translateX(0);
-  translate: translateY(0);
-  transition: 1s cubic-bezier(0.5, 0, 0, 1);
-}
-
 .skills-icons {
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
   padding: 0 13%;
   background-color: #262626;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .skills-icons {
     height: auto;
     padding: 5vh 13%;
@@ -306,14 +282,12 @@ nav ul li .nav-link-underline {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.skills-icons .skill-line a {
-  margin: 10px;
-}
 .skills-icons .skill-line img {
-  width: 100%;
-  height: 10vh;
+  margin: 20px 30px;
+  max-width: 100px;
+  height: auto;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .skills-icons .skill-line img {
     height: 6vh;
   }
@@ -331,7 +305,7 @@ nav ul li .nav-link-underline {
   flex-direction: column;
   padding: 0 13%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .skills-texts {
     height: auto;
     margin: 15vh 0;
@@ -342,7 +316,7 @@ nav ul li .nav-link-underline {
 .skills-texts h2 {
   font-size: 45px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .skills-texts h2 {
     font-size: 40px;
   }
@@ -367,7 +341,7 @@ nav ul li .nav-link-underline {
 .projet {
   width: 100%;
   height: auto;
-  padding: 50px 13%;
+  padding: 90px 13%;
 }
 .projet h3 {
   font-size: 2em;
@@ -375,7 +349,7 @@ nav ul li .nav-link-underline {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet h3 {
     text-align: center;
     font-size: 1.5em;
@@ -383,12 +357,12 @@ nav ul li .nav-link-underline {
 }
 .projet .description {
   height: auto;
-  padding: 10vh 0;
+  padding: 50px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .description {
     flex-direction: column;
     padding: 5vh 0;
@@ -398,16 +372,16 @@ nav ul li .nav-link-underline {
   width: 30%;
   border-radius: 10px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .description .portrait {
-    width: 100%;
+    width: 40%;
   }
 }
 .projet .description .paysage {
   width: 45%;
   border-radius: 10px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .description .paysage {
     width: 100%;
   }
@@ -418,9 +392,9 @@ nav ul li .nav-link-underline {
   border-radius: 20px;
   font-size: 1.2em;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .description .text {
-    width: 100%;
+    width: auto;
   }
 }
 .projet .description .text p {
@@ -430,28 +404,31 @@ nav ul li .nav-link-underline {
   margin-top: 1vh;
 }
 .projet .description .text .technos {
-  height: 5vh;
   margin: 5vh 0;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .description .text .technos {
-    height: 5vh;
     width: 100%;
     padding: 1%;
   }
 }
+.projet .description .text .technos p {
+  min-width: 30%;
+}
 .projet .description .text .technos img {
-  height: 100%;
-  margin-left: 3vw;
+  width: auto;
+  max-height: 50px;
+  padding: 0 10px;
   margin-top: 0;
 }
 .projet .description .text-paysage {
-  width: 45%;
+  width: 50%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projet .description .text-paysage {
     width: auto;
   }
@@ -459,24 +436,6 @@ nav ul li .nav-link-underline {
 .projet .button {
   display: flex;
   justify-content: end;
-}
-
-.projet-paysage {
-  height: auto;
-  padding: 10vh 13%;
-}
-@media screen and (max-width: 1000px) {
-  .projet-paysage {
-    padding: 5vh 13%;
-  }
-}
-.projet-paysage .description-paysage {
-  height: 45vh;
-}
-@media screen and (max-width: 1000px) {
-  .projet-paysage .description-paysage {
-    height: auto;
-  }
 }
 
 .first-image {
@@ -487,7 +446,7 @@ nav ul li .nav-link-underline {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .first-image {
     height: auto;
   }
@@ -503,9 +462,9 @@ nav ul li .nav-link-underline {
 .site-content p {
   font-size: 24px;
   text-align: justify;
-  margin: 10vh 0;
+  margin: 50px 0;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .site-content p {
     font-size: 17px;
   }
@@ -517,22 +476,26 @@ nav ul li .nav-link-underline {
   margin: 5vh 0;
 }
 .site-content .technos {
-  height: 10vh;
   margin: 10vh 0;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .site-content .technos {
     height: 5vh;
     width: 100%;
     padding: 1%;
   }
 }
+.site-content .technos p {
+  margin-right: 100px;
+}
 .site-content .technos img {
-  height: 100%;
-  margin-left: 3vw;
+  width: auto;
+  max-height: 50px;
+  padding: 0 10px;
+  margin-top: 0;
 }
 .site-content .nav-project p {
   margin: 7vh 0;
@@ -546,7 +509,7 @@ nav ul li .nav-link-underline {
 .site-content .nav-project .image img {
   width: 70%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .site-content .nav-project .image img {
     width: 100%;
   }
@@ -556,7 +519,7 @@ nav ul li .nav-link-underline {
   max-width: 100%;
   margin-bottom: 4vh;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .site-content .presentation {
     height: auto;
   }
@@ -653,7 +616,7 @@ nav ul li .nav-link-underline {
   grid-row: 13/16;
   grid-column: 6/7;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .site-content .presentation {
     display: flex;
     flex-direction: column;

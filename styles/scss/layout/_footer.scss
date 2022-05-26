@@ -15,10 +15,11 @@ footer {
         text-decoration: none;
         color: $text-color;
         @include responsive {
-            font-size: 0.7em;
+            font-size: 1em;
         }
         i {
             margin-right: 10px;
+            min-height: 4vh;
         }
     }
     @include responsive {

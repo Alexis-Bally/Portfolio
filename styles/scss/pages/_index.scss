@@ -55,28 +55,3 @@
         justify-content: center;
     }
 }
-
-.trans-left {
-    opacity: 0;
-    transform: translateX(-80px);
-    transition-delay: 0.2s;
-}
-
-.trans-right {
-    opacity: 0;
-    transform: translateX(80px);
-    transition-delay: 0.2s;
-}
-
-.trans-bot {
-    opacity: 0;
-    transform: translateY(100px);
-    transition-delay: 0.2s;
-}
-
-.trans-visible {
-    opacity: 1;
-    transform: translateX(0);
-    translate: translateY(0);
-    transition: 1s cubic-bezier(0.5, 0, 0, 1);
-}
